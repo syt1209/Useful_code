@@ -1,7 +1,7 @@
 # Changing Delimiters
 # You can easily change the delimiter of a file using the tr command. To convert a tab-separated values file named input.tsv to a CSV file named input.csv:
 
-cat input.tsv | tr "\\t" "," > input.csv
+cat input.csv | tr "\\t" "," > input.csv
 
 # The two arguments given in this command indicate the character to change "\\t" (a tab), and the character to change it to "," (a comma). Similarly, we can convert a CSV file to a TSV file by reversing the arguments:
 
